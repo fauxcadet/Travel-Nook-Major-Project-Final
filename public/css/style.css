@@ -57,6 +57,7 @@ body{
 /* cards */
 .listing-card{
     border: none !important;
+    
     /* padding: 0 !important;
     margin: 0 !important;  */
     /* Add margin: 0 here */
@@ -70,6 +71,8 @@ body{
 }
 .card-body{
     padding: 0 !important;
+    outline: none;
+   box-shadow: none;
     
 }
 .card-text p{
@@ -82,12 +85,15 @@ body{
 
 .card-img-overlay{
     opacity: 0;
+    outline: none;
+   box-shadow: none;
 }
 .card-img-overlay:hover{
     padding: 0 !important;
     opacity:0.3;
     background-color: white;
 }
+
 
 /* new page */
 .add-btn{
